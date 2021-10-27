@@ -3,7 +3,7 @@
 
 1.该框架提供了各种数据类型的加载(.wav .mat .jpg .csv .npy)方案。
 
-2.该框架提供了简单分类任务和回归任务的解决方案，以及几个基础模型：CNN、RNN、Attention （ResNet,LSTM,Transformer-encoder)
+2.该框架提供了简单分类任务和回归任务的解决方案，以及几个基础模型：CNN、RNN、Attention （ResNet、LSTM、Transformer-encoder)
 
 3.该框架是一个**简单且完整**的框架，只保留了必要的部分并有详细的注释，方便阅读和理解。
 

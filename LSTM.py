@@ -2,11 +2,6 @@ import torch.nn as nn
 from torch.nn.utils.rnn import pad_packed_sequence, pack_padded_sequence
 import torch
 from torch.autograd import Variable
-'''
-提供一些基础的网络结构：
-基础的ResNet(CNN)：输入维度必须一致
-处理时序信号的网络：LSTM、Transformer(encoder)、TCN
-'''
 
 '''
 LSTM

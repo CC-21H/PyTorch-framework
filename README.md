@@ -14,8 +14,11 @@
 训练和验证
 
     python main.py --dataset_path ./data/audio/wav2vec/ --model_path  wav2vec --feature wav2vec --feature_dim 768 --task regression --model lstm
+    
     python main.py --dataset_path ./data/vision/AU/ --model_path  AU --feature AU --feature_dim 34 --task regression --model lstm
+    
     python main.py --dataset_path ./data/vision/vggface/ --model_path  vggface --feature vggface --feature_dim 128 --task regression --model lstm
+    
     python main.py --dataset_path ./data/vision/image/ --model_path  image --feature image  --task classification --model resnet
     
 测试
